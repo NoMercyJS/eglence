@@ -1,0 +1,38 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "eglence-altyapili-bot",
+  "version": "0.0.1",
+  "description": "Bu Altyapı Darkfire Development Tarafından Geliştirilmiştir!",
+  "main": "darkfire.js",
+  "scripts": {
+    "start": "node darkfire.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "quick.db": "^7.1.2",
+    "discord.js": "^12.5.2",
+    "chalk": "^4.1.1",
+    "moment": "^2.29.1",
+    "jimp": "^0.16.1",
+    "common-tags": "^1.8.0",
+    "node-superfetch": "^0.2.1",
+    "weather-js": "^2.0.0",
+    "tesseract.js": "^2.1.4",
+    "superagent": "^6.1.0",
+    "chance": "^1.1.7"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/eglence-altyapili-bot"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
